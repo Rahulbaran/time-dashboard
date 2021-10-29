@@ -18,7 +18,7 @@
 
 ### Screenshot
 
-![](.dist/design/desktop.png)
+![](./dist/design/desktop.png)
 
 
 ### Links
