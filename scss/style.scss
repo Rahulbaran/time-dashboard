@@ -42,6 +42,7 @@ body {
     background-color:var(--body-bg);
     @include flex(flex-start, center, column);
     padding:1rem;
+    position:relative;
 }
 
 
@@ -111,6 +112,10 @@ body {
         }
     }
 }
+.weekly__btn {
+    color:var(--font-color);
+}
+
 
 
 // User activity related containers
@@ -184,10 +189,6 @@ body {
     }
 }
 
-
-
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
 
 
 
