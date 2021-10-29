@@ -9,10 +9,10 @@ const browserSync = require('browser-sync').create();
 
 //scss Task
 const scssTask = function () {
-    return src ('scss/*.scss')
+    return src ('dist/scss/*.scss')
     .pipe(scss())
     .pipe(postcss([cssnano(), prefixer()]))
-    .pipe(dest('css/'))
+    .pipe(dest('dist/css/'))
 };
 
 
@@ -20,7 +20,7 @@ const scssTask = function () {
 const serveBrowser = function(cb) {
     browserSync.init({
         server : {
-            baseDir : '.'
+            baseDir : 'dist/'
         }
     })
     cb();
@@ -37,9 +37,9 @@ const reloadBrowser = function (cb) {
 
 //watch Task
 const watchTask = function () {
-    watch('js/*.js', reloadBrowser);
-    watch('scss/*.scss', series(scssTask, reloadBrowser));
-    watch('*.html', reloadBrowser);
+    watch('dist/js/*.js', reloadBrowser);
+    watch('dist/scss/*.scss', series(scssTask, reloadBrowser));
+    watch('dist/*.html', reloadBrowser);
 };
 
 
