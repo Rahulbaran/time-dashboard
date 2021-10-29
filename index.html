@@ -14,7 +14,9 @@
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Google font -->
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
 
   <!-- custom stylesheet -->
   <link rel="stylesheet" href="css/style.css">
@@ -30,7 +32,7 @@
     <main class="time--tracker--dashboard">
       
       <div class="user__info__container">
-
+        
         <div class="about__user__section">
           <img src="images/image-jeremy.png" alt="User Image" class="user__img">
           <div class="user__name__wrapper">
@@ -40,112 +42,125 @@
         </div>
 
         <div class="time__period__btns__container">
-          <button class="time__period__btn">Daily</button>
-          <button class="time__period__btn">Weekly</button>
-          <button class="time__period__btn">Monthly</button>
+          <button class="time__period__btn daily__btn">Daily</button>
+          <button class="time__period__btn weekly__btn">Weekly</button>
+          <button class="time__period__btn monthly__btn">Monthly</button>
         </div>
 
       </div>
 
 
       <!------------------ User Activity Details ----------------->
-      <div class="user__activity__container">
+      <div class="user__activity__container activity__container__one">
 
-        <div class="activity__name__wrapper">
-          <h4 class="activity__name">Work</h4>
-          <button class="activity__btn" type="button">
-            <img src="images/icon-ellipsis.svg" alt="Activity Button Icon">
-          </button>
-        </div>
-
-        <div class="activity__time__wrapper">
-          <h2>32hrs</h2>
-          <p>Last Week - 36hrs</p>
-        </div>
-
-      </div>
-
-
-      <div class="user__activity__container">
-
-        <div class="activity__name__wrapper">
-          <h4 class="activity__name">Play</h4>
-          <button class="activity__btn" type="button">
-            <img src="images/icon-ellipsis.svg" alt="Activity Button Icon">
-          </button>
-        </div>
-
-        <div class="activity__time__wrapper">
-          <h2>10hrs</h2>
-          <p>Last Week - 8hrs</p>
+        <div>
+          <div class="activity__name__wrapper">
+            <h4 class="activity__name">Work</h4> 
+            <button class="activity__btn" type="button">
+              <img src="images/icon-ellipsis.svg" alt="Activity Button Icon">
+            </button>
+          </div>
+  
+          <div class="activity__time__wrapper">
+            <h2>32hrs</h2>
+            <p>Last Week - 36hrs</p>
+          </div>
         </div>
 
       </div>
 
 
-      <div class="user__activity__container">
+      <div class="user__activity__container activity__container__two">
 
-        <div class="activity__name__wrapper">
-          <h4 class="activity__name">Study</h4>
-          <button class="activity__btn" type="button">
-            <img src="images/icon-ellipsis.svg" alt="Activity Button Icon">
-          </button>
+        <div>
+          <div class="activity__name__wrapper">
+            <h4 class="activity__name">Play</h4>
+            <button class="activity__btn" type="button">
+              <img src="images/icon-ellipsis.svg" alt="Activity Button Icon">
+            </button>
+          </div>
+  
+          <div class="activity__time__wrapper">
+            <h2>10hrs</h2>
+            <p>Last Week - 8hrs</p>
+          </div>
+  
         </div>
-
-        <div class="activity__time__wrapper">
-          <h2>7hrs</h2>
-          <p>Last Week - 4hrs</p>
-        </div>
-
+        
       </div>
 
 
-      <div class="user__activity__container">
+      <div class="user__activity__container activity__container__three">
 
-        <div class="activity__name__wrapper">
-          <h4 class="activity__name">Exercise</h4>
-          <button class="activity__btn" type="button">
-            <img src="images/icon-ellipsis.svg" alt="Activity Button Icon">
-          </button>
+        <div>
+          <div class="activity__name__wrapper">
+            <h4 class="activity__name">Study</h4>
+            <button class="activity__btn" type="button">
+              <img src="images/icon-ellipsis.svg" alt="Activity Button Icon">
+            </button>
+          </div>
+
+          <div class="activity__time__wrapper">
+            <h2>7hrs</h2>
+            <p>Last Week - 4hrs</p>
+          </div>
+
         </div>
+      </div>
+        
 
-        <div class="activity__time__wrapper">
-          <h2>4hrs</h2>
-          <p>Last Week - 5hrs</p>
+      <div class="user__activity__container activity__container__four">
+
+        <div>
+          <div class="activity__name__wrapper">
+            <h4 class="activity__name">Exercise</h4>
+            <button class="activity__btn" type="button">
+              <img src="images/icon-ellipsis.svg" alt="Activity Button Icon">
+            </button>
+          </div>
+  
+          <div class="activity__time__wrapper">
+            <h2>4hrs</h2>
+            <p>Last Week - 5hrs</p>
+          </div>
         </div>
-
+       
       </div>
 
 
-      <div class="user__activity__container">
+      <div class="user__activity__container activity__container__five">
 
-        <div class="activity__name__wrapper">
-          <h4 class="activity__name">Social</h4>
-          <button class="activity__btn" type="button">
-            <img src="images/icon-ellipsis.svg" alt="Activity Button Icon">
-          </button>
+        <div>
+          <div class="activity__name__wrapper">
+            <h4 class="activity__name">Social</h4>
+            <button class="activity__btn" type="button">
+              <img src="images/icon-ellipsis.svg" alt="Activity Button Icon">
+            </button>
+          </div>
+  
+          <div class="activity__time__wrapper">
+            <h2>5hrs</h2>
+            <p>Last Week - 10hrs</p>
+          </div>
         </div>
-
-        <div class="activity__time__wrapper">
-          <h2>5hrs</h2>
-          <p>Last Week - 10hrs</p>
-        </div>
-
+        
       </div>
 
 
-      <div class="user__activity__container">
+      <div class="user__activity__container activity__container__six">
 
-        <div class="activity__name__wrapper">
-          <h4 class="activity__name">Self Care</h4>
-          <button class="activity__btn" type="button">
-            <img src="images/icon-ellipsis.svg" alt="Activity Button Icon">
-          </button>
-        </div>
-
-        <div class="activity__time__wrapper">
-          <h2>2hrs</h2>
-          <p>Last Week - 2hrs</p>
+        <div>
+          <div class="activity__name__wrapper">
+            <h4 class="activity__name">Self Care</h4>
+            <button class="activity__btn" type="button">
+              <img src="images/icon-ellipsis.svg" alt="Activity Button Icon">
+            </button>
+          </div>
+  
+          <div class="activity__time__wrapper">
+            <h2>2hrs</h2>
+            <p>Last Week - 2hrs</p>
+          </div>
         </div>
 
       </div>
@@ -154,9 +169,5 @@
     </main>
 
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
