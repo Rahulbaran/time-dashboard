@@ -18,13 +18,13 @@
 
 ### Screenshot
 
-![](./design/desktop.png)
+![](.dist//design/desktop.png)
 
 
 ### Links
 
 - Solution URL: [Solution Link](https://github.com/Rahulbaran/time-dashboard.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Site Link](https://nifty-keller-a15295.netlify.app/)
 
 ## My process
 
@@ -55,7 +55,6 @@ If you ask me about useful resources for web development then first one which I 
 
 ## Author
 
-- Website - [Rahul Kumar](https://www.your-site.com)
 - Frontend Mentor - [@Rahulbaran](https://www.frontendmentor.io/profile/Rahulbaran)
 - Twitter - [@Rahul9422dev](https://twitter.com/Rahul9422dev)
 - Github - [@Rahulbaran](https://github.com/Rahulbaran/)
