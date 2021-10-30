@@ -18,13 +18,13 @@
 
 ### Screenshot
 
-![](.dist//design/desktop.png)
+![](./dist/design/desktop.png)
 
 
 ### Links
 
 - Solution URL: [Solution Link](https://github.com/Rahulbaran/time-dashboard.git)
-- Live Site URL: [Site Link](https://nifty-keller-a15295.netlify.app/)
+- Live Site URL: [Site Link](https://mytimetracker.netlify.app/)
 
 ## My process
 
