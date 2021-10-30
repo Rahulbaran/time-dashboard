@@ -65,7 +65,7 @@ body {
 .about__user__section {
    @include flex(center,center);
     background-color:var(--user-bg);
-    padding:1.5rem;
+    padding:1.4rem;
 
     div {
         margin-left:1rem;
